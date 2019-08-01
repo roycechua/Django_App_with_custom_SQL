@@ -1,2 +1,3 @@
-# test_repository_cpe21fb1
-This is a test repository.
+# Django App with customSQL
+## Introduction
+This is a simple Django App that uses custom SQL execution instead of models.
