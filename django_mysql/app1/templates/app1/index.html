@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+</head>
+<body>
+<h1>Hello {{ name }}</h1>
+<table>
+<tr>
+<th>id</th>
+<th>fname</th>
+<th>lname</th>
+</tr>
+{% for d in data %}
+<tr>
+<td>{{ d.student_id }}</td>
+<td>{{ d.student_fname }}</td>
+<td>{{ d.student_lname }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
